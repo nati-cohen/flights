@@ -1,0 +1,142 @@
+.form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.input {
+    width: 300px;
+    height: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    margin: 5px;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .button {
+    /* display: inline-block;
+    padding: 10px 20px;
+    background-color: #1eacd39c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; */
+
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    background-color: rgb(99, 174, 177);
+    border: none;
+    width: fit-content;
+    align-self: center;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .button1{
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    background-color: #f59671;
+    border: none;
+    width: fit-content;
+    align-self: center;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  .button1:hover {
+    background-color: #fa0909;
+  }
+  
+  .buttonall{
+    margin-bottom: 10px;
+  }
+  .main_title{
+    text-align: center;
+  }
+
+  .link_button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .link_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .link_button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+  .link_button:active {
+    background-color: #003d80;
+  }
+  
+  .details{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 1rem;
+  }
+  .details1{
+font-weight: 200;
+  }
+  .main{
+    display: flex;
+    justify-content: space-around;
+  }
+  .titel2{
+    display: flex;
+    justify-content: center;
+   margin-bottom:  0.5rem;
+   color:  rgb(99, 174, 177); 
+
+  }
+
+  .main1{
+    background-color: #333;
+    border-radius: 15px;
+    color: antiquewhite;
+    width: 25%;
+  }
+  .main2{
+    background-color: #333;
+    border-radius: 15px;
+    color: antiquewhite;
+    width: 25%;
+  }
